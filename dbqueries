@@ -1,0 +1,13 @@
+create temporary table student123(
+    sid int PRIMARY KEY ,
+    Sname varchar(20) ,
+    phoneno varchar(10) 
+     )
+  create index indexs on student123(sname)
+  select * from student123
+  insert into student123 values (1,'girish',8553333818)
+  alter table student123 add unique (sname) 
+  insert into student123 values (2,'raju',9901908544)
+  insert into student123 values (4,'mahi',9686289076)
+  select phoneno from student123
+  
